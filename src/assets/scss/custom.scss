@@ -10,17 +10,65 @@
   background:linear-gradient(90deg, #F9E292 0%, #FAD73D 100%) ;
   width: 352px !important;
 }
+
+@media only screen and (min-width: 768px) {
+  .modal.show .modal-dialog {
+    transform: none;
+    width: 80% !important;
+    max-width:  1179px !important;
+    .modal-body{
+      padding: 30px;
+     }
+    .modal-header {
+      display: block;
+      background: url(../images/promo-full-1.jpg);
+      height: 408px;
+      width: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  
+      button {
+        width: 33px;
+        height: 33px;
+        background-color: #fff;
+        padding: 0 !important;
+        opacity: 1;
+      }
+      .header-info{
+        position: relative;
+        left: 10px;
+        top: 308px;
+        h3{
+          color:#FFB546;
+          font-size: 25px;
+          font-family: Nunito-Bold;
+        }
+        p{
+  color:#fff;
+  font-family: Nunito;
+  font-size: 20px;
+        }
+      }
+  
+  
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+
 .modal.show .modal-dialog {
   transform: none;
-  width: 80% !important;
+  width: 95% !important;
   max-width:  1179px !important;
   .modal-body{
-    padding: 40px;
+    padding: 10px;
+    font-size: 10px;
   }
   .modal-header {
     display: block;
     background: url(../images/promo-full-1.jpg);
-    height: 408px;
+    height: 208px;
     width: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,15 +84,16 @@
     .header-info{
       position: relative;
       left: 10px;
-      top: 300px;
+      top: 108px;
       h3{
         color:#FFB546;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Nunito-Bold;
       }
       p{
 color:#fff;
 font-family: Nunito;
+font-size: 12px;
 
       }
     }
@@ -52,7 +101,7 @@ font-family: Nunito;
 
   }
 }
-
+}
 .carousel-dots {
   bottom: 30px !important;
 
