@@ -4,9 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { PromotionComponent } from './promotion/promotion.component';
  
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'promotion', component: PromotionComponent },
- ];
+  { path: '', component: PromotionComponent }
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
