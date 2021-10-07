@@ -1,5 +1,3 @@
-
-
 .btn-moreinfo {
   &:hover {
     text-transform: none !important;
@@ -21,7 +19,7 @@
      }
     .modal-header {
       display: block;
-      background: url(../images/promo-full-1.jpg);
+      background-image: linear-gradient(to bottom, #cb979700 0px, #ffffff00 40%, #00000000 40%, #000000 100%),url(../images/promo-full-1.jpg);
       height: 408px;
       width: auto;
       background-size: cover;
@@ -67,7 +65,7 @@
   }
   .modal-header {
     display: block;
-    background: url(../images/promo-full-1.jpg);
+    background-image: linear-gradient(to bottom, #cb979700 0px, #ffffff00 40%, #00000000 40%, #000000 100%), url(../images/promo-full-1.jpg);
     height: 208px;
     width: auto;
     background-size: cover;
